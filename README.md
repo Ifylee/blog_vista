@@ -27,10 +27,10 @@ Run npm install
 ```
 **Evironment variables:**
 Set up the environment variables by creating a .env file in the root directory and include the following:
-DB_NAME='your_database_name'
-DB_USER='your_database_user'
-DB_PASSWORD='your_database_password'
-SESSION_SECRET='your_secret_key'
+- DB_NAME='your_database_name'
+- DB_USER='your_database_user'
+- DB_PASSWORD='your_database_password'
+- SESSION_SECRET='your_secret_key'
 
 **To run the application:**
 Run npm start

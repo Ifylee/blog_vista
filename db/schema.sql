@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS blog-vista_db;
-CREATE DATABASE blog-vista_db;
+DROP DATABASE IF EXISTS blog_vista_db;
+CREATE DATABASE blog_vista_db;

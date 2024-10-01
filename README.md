@@ -16,7 +16,7 @@ This is a CMS-style blog site where developers can publish posts and comment on 
 
 
 ## Installation
-Clone the repository: git clone https: https://github.com/Ifylee/blog-vista
+Clone the repository: git clone https: https://github.com/Ifylee/blog_vista
 
 **Install Dependencies:**
 To install dependencies:
@@ -72,7 +72,7 @@ Contributions are welcome!
 
 ## Questions
 
-  For more questions, please open an issue on my github: [ifylee](https://github.com/Ifylee/blog-vista)
+  For more questions, please open an issue on my github: [ifylee](https://github.com/Ifylee/blog_vista)
 
   You can also contact me directly at: [ifyekezie@yahoo.co.uk](mailto:ifyekezie@yahoo.co.uk)
 

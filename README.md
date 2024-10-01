@@ -78,8 +78,9 @@ Contributions are welcome!
 
 This README provides a clear description, setup instructions, and highlights the key technologies and features of the project. Let me know if you'd like any changes!
 
-
-
+**Screenshots of my application**
+![alt text](image-2.png)
+![alt text](image.png)
 
 
 

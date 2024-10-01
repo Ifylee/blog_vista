@@ -1,5 +1,5 @@
-# Blog-vista
-Blog-vista is a dynamic platform for developers to share insights, publish posts, and engage in meaningful discussions.
+# Blog_vista
+Blog_vista is a dynamic platform for developers to share insights, publish posts, and engage in meaningful discussions.
 
 ## Description
 This is a CMS-style blog site where developers can publish posts and comment on others'. Built from scratch, it follows the MVC pattern, using Handlebars.js for templating, Sequelize as the ORM, and express-session for authentication. The app is deployed on Render. The app is deployed on Render for easy access.

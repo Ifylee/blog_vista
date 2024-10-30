@@ -45,7 +45,7 @@ Once the app is running, you can:
 
 **Deployed Link:**
 Check out the live application on Render here:
-https://blog-vista-dmdu.onrender.com
+https://blog-vista-q2wd.onrender.com
 
 ## Technologies
 - Node.js: JavaScript runtime

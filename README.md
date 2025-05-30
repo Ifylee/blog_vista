@@ -9,6 +9,7 @@ This is a CMS-style blog site where developers can publish posts and comment on 
 - [Usage](#usage)
 - [Technologies](#)
 - [Features](#)
+- [Testing](#testing)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -64,6 +65,28 @@ https://blog-vista-q2wd.onrender.com
 - Fully responsive design.
 - Secure authentication and session management.
 
+## Testing
+To make sure Blog_vista works properly and is reliable, I wrote a set of automated tests using Jest and Supertest. These tests focus on important user actions like signing up, logging in, and logging out.
+
+- Registration: I test what happens when someone     tries to register without providing the necessary details.
+
+- Login: I check that the app handles missing login credentials correctly.
+
+- Logout: I test both when a logged-in user logs out and when someone tries to log out without being logged in.
+
+- Session handling: I mock different session states to simulate users who are logged in or logged out, making sure protected routes behave as expected.
+
+These tests help me catch problems early and keep everything running smoothly as the app grows.
+
+**To Run**
+Install dependencies:
+
+```
+npm install
+npm test
+
+```
+This runs the tests in the tests/ folder and checks that the API routes and session functionality work the way they should.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.

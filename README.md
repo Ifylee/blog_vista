@@ -83,7 +83,8 @@ These tests help me catch problems early and keep everything running smoothly as
 npm install
 npm test
 ```
-**Example test for logout route when user is logged in**
+<pre> <code>```js
+// Example test for logout route when user is logged in
 it('should return 204 on logout when user is logged in', async () => {
   const loggedInApp = express();
   loggedInApp.use(express.json());
@@ -99,6 +100,7 @@ it('should return 204 on logout when user is logged in', async () => {
   const res = await request(loggedInApp).post('/api/users/logout');
   expect(res.statusCode).toBe(204);
 });
+ ```</code> </pre>
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.

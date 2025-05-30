@@ -78,15 +78,27 @@ To make sure Blog_vista works properly and is reliable, I wrote a set of automat
 
 These tests help me catch problems early and keep everything running smoothly as the app grows.
 
-**To Run**
-Install dependencies:
-
+**To Run Test:**
 ```
 npm install
 npm test
-
 ```
-This runs the tests in the tests/ folder and checks that the API routes and session functionality work the way they should.
+**Example test for logout route when user is logged in**
+it('should return 204 on logout when user is logged in', async () => {
+  const loggedInApp = express();
+  loggedInApp.use(express.json());
+  loggedInApp.use((req, res, next) => {
+    req.session = {
+      logged_in: true,
+      destroy: (callback) => callback(null),
+    };
+    next();
+  });
+  loggedInApp.use('/api/users', userRoutes);
+
+  const res = await request(loggedInApp).post('/api/users/logout');
+  expect(res.statusCode).toBe(204);
+});
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
